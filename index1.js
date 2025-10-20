@@ -1,5 +1,5 @@
 function site_2() {
-  window.open("Videos.html");
+ window.location.href = "Videos.html"
 }
 
 const images = document.querySelectorAll('.image');
@@ -37,3 +37,4 @@ function clickFora(event) {
 images.forEach(img => {
   img.addEventListener('click', crescer);
 });
+
