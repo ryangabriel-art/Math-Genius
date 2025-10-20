@@ -1,0 +1,184 @@
+.body {
+    height: 98%;
+}
+
+.a1 {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #b3d6c6;
+    color: #1f7379;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.d1 {
+    font-size: 40px;
+    display: flex;
+    margin-left: 23%;
+}
+
+.video1 {
+    height: 250px;
+    width: 350px;
+    position: absolute;
+    margin-left: 15%;
+    top: 20%;
+    border-radius: 25px;
+}
+
+.d2 {
+    font-size: 40px;
+    display: flex;
+    margin-left: 64%;
+    position: relative;
+    top: -45px;
+}
+
+.video2 {
+    height: 250px;
+    width: 350px;
+    position: absolute;
+    margin-left: 55%;
+    top: 20%;
+    border-radius: 25px;
+}
+
+.a5 {
+    height: 10%;
+    width: 100%;
+    margin-top: 32%;
+    border-radius: 25px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #b3d6c6;
+    color: #1f7379;
+}
+
+.butt {
+    position: absolute;
+    top: 80%;
+    margin-left: 40%;
+    height: 50px;
+    width: 250px;
+    background: linear-gradient(90deg, #4a90e2, #50e3c2);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.butt:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #50e3c2;
+    background: linear-gradient(90deg, #50e3c2, #4a90e2);
+}
+
+.butt:active {
+    transform: scale(0.95);
+    box-shadow: 0 0 10px #4a90e2;
+    background: linear-gradient(90deg, #50e3c2, #4a90e2);
+}
+
+.butto {
+    position: absolute;
+    top: 70%;
+    margin-left: 40%;
+    height: 50px;
+    width: 250px;
+    background: linear-gradient(90deg, #4a90e2, #50e3c2);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.ultima {
+    background-color: #80BDC2;
+    height: 10%;
+    width: 99%;
+    position: absolute;
+    top: 98%;
+    border-radius: 25px;
+}
+
+.butto:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #50e3c2;
+    background: linear-gradient(90deg, #50e3c2, #4a90e2);
+}
+
+.butto:active {
+    transform: scale(0.95);
+    box-shadow: 0 0 10px #4a90e2;
+    background: linear-gradient(90deg, #50e3c2, #4a90e2);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .a1 {
+        font-size: 30px;
+    }
+
+    .d1, .d2 {
+        font-size: 20px;
+        margin-left: 10%;
+    }
+
+    .video1, .video2 {
+        height: 200px;
+        width: 300px;
+        margin-left: 5%;
+        top: 10%;
+    }
+
+    .butt, .butto {
+        top: 90%;
+        margin-left: 25%;
+        width: 200px;
+        font-size: 16px;
+    }
+
+    .ultima {
+        top: 120%;
+    }
+}
+
+@media (max-width: 480px) {
+    .a1 {
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    .d1, .d2 {
+        font-size: 16px;
+        margin-left: 5%;
+    }
+
+    .video1, .video2 {
+        height: 150px;
+        width: 250px;
+        margin-left: 5%;
+        top: 5%;
+    }
+
+    .butt, .butto {
+        top: 100%;
+        margin-left: 20%;
+        width: 150px;
+        font-size: 14px;
+    }
+
+    .ultima {
+        top: 140%;
+    }
+}
