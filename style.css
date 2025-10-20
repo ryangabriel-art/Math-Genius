@@ -16,7 +16,6 @@
     font-size: 40px;
     display: flex;
     margin-left: 23%;
-    top:-5%; 
 }
 
 .video1 {
@@ -24,7 +23,7 @@
     width: 350px;
     position: absolute;
     margin-left: 15%;
-    top: 20%;
+    top: 25%;
     border-radius: 25px;
 }
 
@@ -41,7 +40,7 @@
     width: 350px;
     position: absolute;
     margin-left: 55%;
-    top: 20%;
+    top: 25%;
     border-radius: 25px;
 }
 
@@ -184,3 +183,4 @@
     }
 
 }
+
