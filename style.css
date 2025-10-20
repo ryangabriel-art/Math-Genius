@@ -16,6 +16,7 @@
     font-size: 40px;
     display: flex;
     margin-left: 23%;
+    top:-5%; 
 }
 
 .video1 {
@@ -181,4 +182,5 @@
     .ultima {
         top: 140%;
     }
+
 }
