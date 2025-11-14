@@ -16,7 +16,7 @@ body {
 
 .header {
     text-align: center;
-    background-color: #b3d6c6;
+    background-color: #80BDC2;
     padding: 20px;
     border-radius: 25px;
     margin: 10px;
@@ -109,9 +109,39 @@ body {
 
 .footer {
     background-color: #80BDC2;
-    height: 100px;
+    height: auto;
     border-radius: 25px;
     margin: 20px;
+    gap: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 2%;
+    
+    
+}
+
+.h2Credis{
+    color: #1f7379;
+    margin-left: 100px;
+    font-weight: 700;
+}
+
+.h1Credis{
+    display: flex;
+    margin-left: 100px;
+    color:#4a90e2;
+    font-weight: 600;
+}
+
+.footer .h1Credis span{
+    color: #212121;
+    margin-left: 10px;
+}
+
+.footer .h1Credis i{
+    font-size: 30px;
+    margin-left: 5px;
+    color: #1f7379;
 }
 
 
