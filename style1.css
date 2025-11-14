@@ -129,15 +129,20 @@ h3{
 
 .h2Credis{
     color: #1f7379;
-    margin-left: 100px;
+    margin-left: 10%;
     font-weight: 700;
 }
 
 .h1Credis{
     display: flex;
-    margin-left: 100px;
+    margin-left: 15%;
     color:#4a90e2;
     font-weight: 600;
+}
+
+span {
+    width: auto;
+    flex-wrap: wrap;
 }
 
 .footer .h1Credis span{
